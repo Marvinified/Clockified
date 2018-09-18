@@ -1,0 +1,32 @@
+{
+  "name": "clockified",
+  "version": "1.0.0",
+  "description": "Clock and CountDown Component",
+  "author": "Marvin Tunji-ola",
+  "license": "MIT",
+  "keywords": [
+    "clock",
+    "timer",
+    "count-down"
+  ],
+  "main": "build/index.js",
+  "dependencies": {
+    "styled-components": "latest"
+  },
+  "peerDependencies": {
+    "react": "16.4.2",
+  },
+ "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack",
+  }
+}
